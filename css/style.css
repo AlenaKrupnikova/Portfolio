@@ -1,0 +1,144 @@
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+.h1 {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 1,36;
+    color: #070707;
+}
+.header {
+    border-bottom: 2px solid #828282;
+}
+.nav_list {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 30px 0;
+}
+.nav_item {
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav_link {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1,4;
+    color: #828282;
+    text-decoration: none;
+    padding: 0 3px;
+    }
+.nav_link_active {
+    color: #070707;
+}
+.home_img {
+    margin-bottom: 100px;
+    width: 100%;
+}
+.h2 {
+    width: 200px;
+    height: 42px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1,35;
+    text-align: center;
+    color: #070707;
+}
+.div {
+    width: 480px;
+    height: 246px;
+}
+.text {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1,4;
+    text-align: center;
+    color: #070707;
+}
+.h3 {
+    width: 124px;
+    height: 25px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1,35;
+    text-align: center;
+    color: #070707;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.scills_text {
+    width: 227px;
+    height: 23px;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1,39;
+    text-align: center;
+    color: #070707;
+}
+.list {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 30px 0;
+}
+.item {
+    display: inline-block;
+    margin: 0 15px;
+    width: 166px;
+    height: 223px;
+}
+.h4 {
+   width: 171px;
+    height: 42px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1,35;
+    text-align: center;
+    color: #070707;
+}
+.woman_foto {
+    width: 936px;
+    height: 510px;
+}
+.woman_text {
+    width: 276px;
+    height: 21px;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1,38;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+.reebok_foto {
+    width: 936px;
+    height: 522px;
+}
+.Reebok_text {
+    width: 202px;
+    height: 21px;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1,38;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+.Braun_foto {
+    width: 936px;
+    height: 522px;
+}
+.Braun_text {
+    width: 259px;
+    height: 21px;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1,38;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
