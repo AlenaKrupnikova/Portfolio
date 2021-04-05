@@ -52,6 +52,7 @@
     width: 480px;
     height: 246px;
     margin: auto;
+    margin-bottom: 135px;
 }
 .text {
     font-family: Open Sans;
@@ -71,6 +72,7 @@
     color: #070707;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin:auto ;
+    margin-bottom: 69px;
 }
 .scills_text {
     width: 227px;
@@ -81,6 +83,7 @@
     text-align: center;
     color: #070707;
     margin:auto ;
+    margin-bottom: 83px;
 }
 .list {
     padding: 0;
@@ -104,10 +107,12 @@
     text-align: center;
     color: #070707;
     margin:auto ;
+    margin-bottom: 70px;
 }
 .woman_foto {
     width: 936px;
     height: 510px;
+    margin-bottom: 15px;
 }
 .woman_text {
     width: 276px;
@@ -119,10 +124,12 @@
     text-decoration-line: underline;
     color: #070707;
     margin: auto;
+    margin-bottom: 128px;
 }
 .reebok_foto {
     width: 936px;
     height: 522px;
+    margin-bottom: 7px;
 }
 .Reebok_text {
     width: 202px;
@@ -134,10 +141,12 @@
     text-decoration-line: underline;
     color: #070707;
     margin: auto;
+    margin-bottom: 136px;
 }
 .Braun_foto {
     width: 936px;
     height: 522px;
+    margin-bottom: 2px;
 }
 .Braun_text {
     width: 259px;
@@ -149,4 +158,39 @@
     text-decoration-line: underline;
     color: #070707;
     margin: auto;
+    margin-bottom: 206px;
 }
+.h5 {
+    width: 179px;
+    height: 42px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1,35;
+    text-align: center;
+    color: #070707;
+    margin: auto;
+    margin-bottom: 21px;
+}
+.h5_text {
+    width: 275px;
+    height: 43px;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1,38;
+    text-align: center;
+    color: #070707;
+    margin: auto;
+    margin-bottom: 78px;
+}
+.send messege {
+    width: 180px;
+    height: 42px;
+    margin: auto;
+    margin-bottom: 37px;
+}
+.icons {
+    width: 349px;
+    height: 40px;
+    margin: auto;
+    }
