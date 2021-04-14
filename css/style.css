@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 .h1 {
-    font-family: Open Sans;
+    font-family: 'Gilroy Bold';
     font-weight: bold;
     font-size: 47px;
     line-height: 1,36;
@@ -23,7 +23,8 @@
     margin: 0 15px;
 }
 .nav_link {
-    font-family: Open Sans;
+    font-family: 'Gilroy Bold';
+    font-weight: bold;
     font-size: 18px;
     line-height: 1,4;
     color: #828282;
@@ -43,7 +44,7 @@
 .h2 {
     width: 200px;
     height: 42px;
-    font-family: Open Sans;
+    font-family: 'Gilroy Bold';
     font-weight: bold;
     font-size: 34px;
     line-height: 1,35;
@@ -60,7 +61,7 @@
 
 }
 .text {
-    font-family: Open Sans;
+    font-family: 'Gilroy Medium';
     font-size: 18px;
     line-height: 1,4;
     text-align: center;
@@ -69,7 +70,7 @@
 .h3 {
     width: 124px;
     height: 25px;
-    font-family: Open Sans;
+    font-family: 'Gilroy Bold';
     font-weight: bold;
     font-size: 34px;
     line-height: 1,35;
@@ -82,7 +83,7 @@
 .skills_text {
     width: 227px;
     height: 23px;
-    font-family: Open Sans;
+    font-family: 'Gilroy Medium';
     font-size: 18px;
     line-height: 1,39;
     text-align: center;
@@ -104,7 +105,7 @@
 .h4 {
     width: 171px;
     height: 42px;
-    font-family: Open Sans;
+    font-family: 'Gilroy Bold';
     font-weight: bold;
     font-size: 34px;
     line-height: 1,35;
@@ -123,7 +124,7 @@
 .woman_text {
     width: 276px;
     height: 21px;
-    font-family: Open Sans;
+    font-family: 'Gilroy Medium';
     font-size: 18px;
     line-height: 1,38;
     text-align: center;
@@ -145,7 +146,7 @@
 .Reebok_text {
     width: 202px;
     height: 21px;
-    font-family: Open Sans;
+    font-family: 'Gilroy Medium';
     font-size: 18px;
     line-height: 1,38;
     text-align: center;
@@ -166,7 +167,7 @@
 .Braun_text {
     width: 259px;
     height: 21px;
-    font-family: Open Sans;
+    font-family: 'Gilroy Medium';
     font-size: 18px;
     line-height: 1,38;
     text-align: center;
@@ -181,7 +182,7 @@
 .h5 {
     width: 179px;
     height: 42px;
-    font-family: Open Sans;
+    font-family: 'Gilroy Bold';
     font-weight: bold;
     font-size: 34px;
     line-height: 1,35;
@@ -193,7 +194,7 @@
 .h5_text {
     width: 275px;
     height: 43px;
-    font-family: Open Sans;
+    font-family: 'Gilroy Medium';
     font-size: 18px;
     line-height: 1,38;
     text-align: center;
@@ -260,7 +261,7 @@ button {
 .footer_text {
     width: 243px;
     height: 33px;
-    font-family: Open Sans;
+    font-family: 'Gilroy Medium';
     font-size: 14px;
     line-height: 1,36;
     text-align: center;
@@ -270,3 +271,22 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('../fons/Gilroy-Bold.eot');
+    src: url('../fons/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fons/Gilroy-Bold.woff') format('woff'),
+    url('../fons/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    }
+    @font-face {
+        font-family: 'Gilroy Medium';
+        src: url('../fons/Gilroy-Medium.eot');
+        src: url('../fons/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fons/Gilroy-Medium.woff') format('woff'),
+        url('../fons/Gilroy-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
+        
