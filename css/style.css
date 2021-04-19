@@ -1,214 +1,233 @@
-.container {
+.header {
+    border-bottom: 2px solid #828282;
     width: 940px;
     margin: 0 auto;
 }
-.h1 {
-    font-family: 'Gilroy Bold';
-    font-weight: bold;
-    font-size: 47px;
-    line-height: 1,36;
-    color: #070707;
-}
-.header {
-    border-bottom: 2px solid #828282;
-}
-.nav_list {
+.nav__list {
     padding: 0;
     list-style: none;
-    text-align: center;
+    width: 100%;
     margin: 30px 0;
 }
-.nav_item {
+.nav__item {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 ;
+    width: 19.55%;
 }
-.nav_link {
-    font-family: 'Gilroy Bold';
+.nav__link {
+    font-family: 'Gilroy';
     font-weight: bold;
     font-size: 18px;
-    line-height: 1,4;
+    line-height: 1.4;
     color: #828282;
     text-decoration: none;
     padding: 0 3px;
     }
-.nav_link_active {
+.nav__link_active {
     color: #070707;
 }
-.home_img {
+.Home-container {
+    width: 940px;
+    margin: 0 auto;
+}
+.Home-container__h1 {
+    display: inline-block;
+    margin-right: 30%;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 1.36;
+    color: #070707;
+}
+.Home-container__text{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.16;
+    text-align: center;
+    display: inline-block;
+    margin-right: 30%;
+}
+.Home-container__img {
     margin-bottom: 100px;
     width: 100%;
 }
-.aboutme {
+.Aboutme-container {
     background-color: #F6F6F6;
     padding-top: 25px;
 }  
-.h2 {
+.Aboutme-container__h2 {
     width: 200px;
     height: 42px;
-    font-family: 'Gilroy Bold';
+    font-family: 'Gilroy';
     font-weight: bold;
     font-size: 34px;
-    line-height: 1,35;
+    line-height: 1.35;
     text-align: center;
     color: #070707;
     margin: auto;
 }
-.div {
+.Aboutme-container__text {
     width: 100%;
     height: 246px;
     margin: auto;
     margin-bottom: 135px;
     border-color: #F6F6F6;
-
-}
-.text {
-    font-family: 'Gilroy Medium';
+    font-family: 'Gilroy';
     font-size: 18px;
-    line-height: 1,4;
+    line-height: 1.4;
     text-align: center;
     color: #070707;
 }
-.h3 {
+.Skills-container{
+    margin:auto ;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.Skills-container__h3 {
     width: 124px;
     height: 25px;
-    font-family: 'Gilroy Bold';
+    font-family: 'Gilroy';
     font-weight: bold;
     font-size: 34px;
-    line-height: 1,35;
+    line-height: 1.35;
     text-align: center;
     color: #070707;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin:auto ;
     margin-bottom: 69px;
 }
-.skills_text {
+.Skills-container__text {
     width: 227px;
     height: 23px;
-    font-family: 'Gilroy Medium';
+    font-family: 'Gilroy';
     font-size: 18px;
-    line-height: 1,39;
+    line-height: 1.39;
     text-align: center;
     color: #070707;
     margin:auto ;
     margin-bottom: 83px;
 }
-.skills_container {
-    margin:auto ;
-    text-align: center;
-}
-.icon_container {
+.icon-container {
     display: inline-block;
     margin: 0 auto;
-    width: cals(25%-3px);
+    width: calc(25% - 3px);
    text-align: center;
 }
-.h4 {
-    width: 171px;
+.Portfolio-container{
+    background-color: #F6F6F6;
+    padding-top: 4.9em;
+    padding-bottom: 5em;
+}
+.Portfolio-container__h4 {
+    width: 133px;
     height: 42px;
-    font-family: 'Gilroy Bold';
+    font-family:'Gilroy';
     font-weight: bold;
     font-size: 34px;
-    line-height: 1,35;
+    line-height: 1.35;
     text-align: center;
     color: #070707;
     margin:auto ;
-    margin-bottom: 70px;
-    padding-top: 223px;
+    margin-bottom: 45px;
 }
-.woman_foto {
+.Portfolio-container__woman-foto {
     width: 936px;
     height: 510px;
     margin-bottom: 15px;
     display: block;
     margin: auto;
 }
-.woman_text {
+.Portfolio-container__woman-text {
     width: 276px;
     height: 21px;
-    font-family: 'Gilroy Medium';
+    font-family: 'Gilroy';
     font-size: 18px;
-    line-height: 1,38;
+    line-height: 1.38;
     text-align: center;
     text-decoration-line: underline;
     color: #070707;
     margin: auto;
-    margin-bottom: 128px;
+    margin-bottom: 99px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 44px;
 }
-.reebok_foto {
+.Portfolio-container__Reebok-foto {
     width: 936px;
     height: 522px;
     margin-bottom: 7px;
     display: block;
     margin: auto;
 }
-.Reebok_text {
+.Portfolio-container__Reebok-text{
     width: 202px;
     height: 21px;
-    font-family: 'Gilroy Medium';
+    font-family: 'Gilroy';
     font-size: 18px;
-    line-height: 1,38;
+    line-height: 1.38;
     text-align: center;
     text-decoration-line: underline;
     color: #070707;
     display: block ;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 136px;
+    margin-bottom: 99px;
+    padding-top: 44px;
 }
-.Braun_foto {
+.Portfolio-container__Braun-foto {
     width: 936px;
     height: 522px;
     margin-bottom: 2px;
     display: block;
     margin: auto;
 }
-.Braun_text {
+.Portfolio-container__Braun-text{
     width: 259px;
     height: 21px;
-    font-family: 'Gilroy Medium';
+    font-family: 'Gilroy';
     font-size: 18px;
-    line-height: 1,38;
+    line-height: 1.38;
     text-align: center;
     text-decoration-line: underline;
     color: #070707;
     margin: auto;
-    margin-bottom: 206px;
+    margin-bottom: 46px;
     margin-left: auto ;
     margin-right: auto;
     display: block;
+    padding-top: 45px;
 }
-.h5 {
+.Contacts-container{
+    padding-top: 114px;
+    padding-bottom: 123px;
+}
+.Contacts-container__h5 {
     width: 179px;
     height: 42px;
-    font-family: 'Gilroy Bold';
+    font-family: 'Gilroy';
     font-weight: bold;
     font-size: 34px;
-    line-height: 1,35;
+    line-height: 1.35;
     text-align: center;
     color: #070707;
     margin: auto;
     margin-bottom: 21px;
 }
-.h5_text {
+.Contacts-container__text {
     width: 275px;
     height: 43px;
-    font-family: 'Gilroy Medium';
+    font-family: 'Gilroy';
     font-size: 18px;
-    line-height: 1,38;
+    line-height: 1.38;
     text-align: center;
     color: #070707;
     margin: auto;
     margin-bottom: 78px;
 }
-.icons {
-    width: 349px;
-    height: 40px;
-    margin: auto;
-    }
-button {
+.button {
     color: #FFFFFF;
     background-color: #070707;
     border-radius: 21px;
@@ -222,59 +241,85 @@ button {
     width: 180px;
     height: 42px;
 }
-.socials {
+.socials-container {
     margin:auto ;
     text-align: center;
     margin-bottom: 43px;
-}
-.linkedin {
+   }
+.socials-container__linkedin {
     display: inline-block ;
     cursor: pointer;
     width: 40px;
     height: 40px;
     margin: 0 30px;
-    background: url(/image/Linkedin.png);
+    background: url(../image/Linkedin.png)no-repeat;
+    cursor: pointer;
 }
-.instagram {
+.socials-container__linkedin:hover{
+    transition: 0.5s;
+    background: url(../image/Behance.png) no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.socials-container__instagram {
     display: inline-block ;
     cursor: pointer;
     width: 40px;
     height: 40px;
     margin: 0 30px;
-    background: url(/image/Instagram.png);
+    background: url(../image/Instagram.png) no-repeat;
+    cursor: pointer;
 }
-.behance {
+.socials-container__instagram:hover{
+    transition: 0.5s;
+    background: url(../image/Behance.png) no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.socials-container__behance {
     display: inline-block ;
     cursor: pointer;
     width: 40px;
     height: 40px;
     margin: 0 30px;
-    background: url(/image/Behance.png);
+    background: url(../image/Behance.png) no-repeat;
+    cursor: pointer;
 }
-.dribble {
+.socials-container__behance:hover{
+    transition: 0.5s;
+    background: url(../image/Linkedin.png) no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.socials-container__dribble {
     display: inline-block ;
     cursor: pointer;
     width: 40px;
     height: 40px;
     margin: 0 30px;
-    background: url(/image/Dribble.png);
+    background: url(../image/Dribble.png) no-repeat;
+    cursor: pointer;
 }
-.footer_text {
+.socials-container__dribble:hover{
+    transition: 0.5s;
+    background: url(../image/Instagram.png) no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.socials-container__text {
     width: 243px;
     height: 33px;
-    font-family: 'Gilroy Medium';
+    font-family: 'Gilroy';
     font-size: 14px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     color: #828282;
     display: block;
     margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 55px;
+    padding-top: 45px;
 }
 @font-face {
-    font-family: 'Gilroy Bold';
+    font-family: 'Gilroy';
     src: url('../fons/Gilroy-Bold.eot');
     src: url('../fons/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
     url('../fons/Gilroy-Bold.woff') format('woff'),
@@ -283,7 +328,7 @@ button {
     font-style: normal;
     }
     @font-face {
-        font-family: 'Gilroy Medium';
+        font-family: 'Gilroy';
         src: url('../fons/Gilroy-Medium.eot');
         src: url('../fons/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
         url('../fons/Gilroy-Medium.woff') format('woff'),

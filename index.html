@@ -8,94 +8,103 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
         <header class="header">
             <nav class="nav">
-                <ul class="nav_list">
-                    <li class="nav_item"><a class="nav_link nav_link_active" href="#home ">Home</a></li>
-                    <li class="nav_item"><a class="nav_link" href="#aboutme">About me</a></li>
-                    <li class="nav_item"><a class="nav_link" href="#skills">Skills</a></li >
-                    <li class="nav_item"><a class="nav_link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav_item"><a class="nav_link" href="#c">Contacs</a></li >
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link nav__link_active" href="#home ">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#aboutme">About me</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li >
+                    <li class="nav__item"><a class="nav__link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#c">Contacs</a></li >
                 </ul>
             </nav> 
-          </header>
-    </div>
-          
+        </header>
+              
      <main>
-    <section id="home">
-       <h1 class="h1">Denis Novik</h1>
-       <img class="home_img" src="image/homex940.jpg" alt="Denis Novik">
-    </section>
-
-    <div class="aboutme">
+         <div class="Home-container">
+            <section id="home" >
+                <h1 class="Home-container__h1">Denis <br> Novik</h1>
+                <div class="Home-container__text"> 
+                 UX | UI designer <br>
+                 24 years old, Minsk
+                </div>
+                <img class="Home-container__img" src="image/homex940.jpg" alt="Denis Novik">
+             </section>
+         </div>
+    
+    <div class="Aboutme-container">
         <section id="aboutme">
-            <h2 class="h2">About me </h2>
-              <div class="div"> 
-                  <p class="text">Hi, I'm Denis – UX/UI designer from Minsk. 
-                  I'm interested in design  and everything connected with it. </p> 
-                  <br>
-                  <p class="text">I'm studying at courses "Web and mobile design 
-                  interfaces" in IT-Academy.</p> 
-                  <br>
-                  <p class="text">Ready to implement excellent projects 
-                    with wonderful people.</p> 
+            <h2 class="Aboutme-container__h2">About me </h2>
+              <div class="Aboutme-container__text"> 
+                     <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
+                        I'm interested in design  and everything connected with it. </p>
+                     <p>I'm studying at courses "Web and mobile design <br>
+                        interfaces" in IT-Academy. </p>
+                     <p>Ready to implement excellent projects <br> 
+                        with wonderful people.</p> 
               </div> 
           </section>
     </div> 
 
-
+<div class="Skills-container">
     <section id="skills">
-        <h3 class="h3">Scills</h3>
-        <div class="skills_text">I work in such programs as</div> 
-        <div class="skills_container" >
-            <div class="icon_container">
-                <img class="item" src="image/Ps.png" alt="Photoshop">
+        <h3 class="Skills-container__h3">Scills</h3>
+        <div class="Skills-container__text">I work in such programs as </div> 
+
+            <div class="icon-container">
+                <img  src="image/Ps.png" alt="Photoshop">
                 <p>Adobe <br> Photoshop </p>
                 <img src="image/4stars.png" alt=" PS stars">
             </div>
-            <div class="icon_container">
-                <img src="image/Ai.png" alt="Illustrator">
-                <p>Adobe  <br> illustrator</p>
+
+            <div class="icon-container">
+                <img  src="image/Ai.png" alt="Illustrator">
+                <p>Adobe  <br> Illustrator</p>
                 <img src="image/3stars.png" alt="Ai stars">
             </div>
-            <div class="icon_container">
-                <img src="image/Ae.png" alt="Effects">
+
+            <div class="icon-container">
+                <img  src="image/Ae.png" alt="Effects">
                 <p> Adobe  <br> After  Effects</p>
                 <img src="image/4stars.png" alt="Aestars">
             </div>
-            <div class="icon_container">
-                <img src="image/Figma.png" alt="figma">
+
+            <div class="icon-container">
+                <img  src="image/Figma.png" alt="figma">
                 <p>Figma</p>
                 <img src="image/4stars.png" alt="Fstars">
             </div>
-        </div>
-    </section>
-
+            </section>
+</div>
+    
+<div class="Portfolio-container">
     <section id="portfolio">
-        <h4 class="h4">Portfolio</h4>
-        <img class="woman_foto" src="image/woman web.jpg" alt="woman web">
-        <a class="woman_text" href="#">Online fashion store - <br> Homepage</a>
-        <img class="reebok_foto" src="image/reebok_web.jpg" alt="reebok_web">
-        <a class="Reebok_text" href="#">Reebok Store - Concept</a>
-        <img class="Braun_foto" src="image/Braun_web.jpg" alt="Braun_web">
-         <a class="Braun_text" href="#">Braun Landing Page - Concept</a>
+        <h4 class="Portfolio-container__h4">Portfolio</h4>
+        <img class="Portfolio-container__woman-foto" src="image/woman web.jpg" alt="woman web">
+        <a class="Portfolio-container__woman-text" href="#">Online fashion store - <br> Homepage</a>
+        <img class="Portfolio-container__Reebok-foto" src="image/reebok_web.jpg" alt="reebok_web">
+        <a class="Portfolio-container__Reebok-text" href="#">Reebok Store - Concept</a>
+        <img class="Portfolio-container__Braun-foto" src="image/Braun_web.jpg" alt="Braun_web">
+         <a class="Portfolio-container__Braun-text" href="#">Braun Landing Page - Concept</a>
 
     </section>
+</div>
+
 </main>
-<footer>
-    <h5 class="h5">Contacts</h5>
-    <p class="h5_text">Want to know more or just chat? <br>
+<footer class="Contacts-container">
+    <h5 class="Contacts-container__h5">Contacts</h5>
+    <p class="Contacts-container__text">Want to know more or just chat? <br>
         You are welcome!</p>
-<button>Send  message</button>
-        <div class="socials">
-            <a class="linkedin" href="#"> <img src="image/Linkedin.png" alt="linkedin"> </a>
-            <a class="instagram" href="#"> <img src="image/Instagram.png" alt="Instagram"></a>
-            <a class="behance" href="#"> <img src="image/Behance.png" alt="behance"></a>
-            <a class="dribble" href="#"><img src="image/Dribble.png" alt="dribble"></a>
-        </div>
-        <div class="footer_text">Like me on <br>
+<button class="button">Send  message</button>
+        <div class="socials-container">
+            <a class="socials-container__linkedin" href="#"> <img src="image/Linkedin.png" alt="linkedin"></a>
+            <a class="socials-container__instagram" href="#"> <img src="image/Instagram.png" alt="Instagram"></a>
+            <a class="socials-container__behance" href="#"> <img src="image/Behance.png" alt="behance"></a>
+            <a class="socials-container__dribble" href="#"><img src="image/Dribble.png" alt="dribble"></a>
+        
+        <div class="socials-container__text">Like me on <br>
             LinkedIn, Instagram, Behance, <br> Dribble</div>
+        </div>
        </footer>
 
 
